@@ -1,0 +1,279 @@
+*{
+    color: white;
+    font-family: Verdana, sans-serif;
+}
+body,html{
+    margin: 0px;
+    width: 100%;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+}
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 0px grey;
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: gray;
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(83, 83, 83); 
+  }
+
+body{
+    background-color: black;
+}
+
+.high-light{
+    background-color: white;
+    color: black;
+    padding: 5px 5px;
+    font-weight: 600;
+}
+
+.content h3{
+    font-size: 22px;
+    line-height: 1.9;
+}
+
+.content h2{
+    font-size: 65px;
+    text-transform: uppercase;
+}
+/* top menu */
+.text-block {
+    position: absolute;
+    font-size: 40px;
+    bottom: 120px;
+    left: 45px;
+    text-transform: uppercase;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 1.6 ;
+  }
+
+.nav{
+    background: linear-gradient(rgb(0, 0, 0) 20%, rgb(255, 255, 255, 0));
+    display: flex;
+    font-family: Verdana, sans-serif;
+    position: fixed;
+}
+
+.nav img{
+    width: 11%;
+    height: 100%;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.nav .nav-item{
+    color: whitesmoke;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    font-size: 20px;
+    padding: 28px;
+}
+
+.nav .nav-item:hover{
+    border-bottom: 5px solid rgb(197, 196, 196);
+}
+
+/* page content  */
+/* pitch  */
+#pitch{
+    display: flex;
+    padding: 90px 16px 16px 16px;
+    justify-content: center;
+}
+
+#pitch .half-img{
+    padding-left: 10%;
+    padding-right: 10px;
+    padding-top: 30px;
+    width: 50%;
+    height: 100%;
+}
+
+#pitch .half-img img{
+    padding-bottom: 16px;
+}
+
+.half-img{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+/* about us  */
+#studio{
+    display:flex;
+    padding: 40px 16px 16px 16px;
+    justify-content: center;
+}
+
+#studio img{
+    width: 24%;
+    height: 100%;
+    padding-top: 30px;
+    padding-right: 30px;
+}
+
+/* slides */
+#mem-title{
+    text-align: center;
+}
+
+.quote{
+    align-items: right;
+    justify-content: center;
+    padding-left: 30px;
+    line-height: 1.8;
+}
+
+.member{
+    justify-content: center;
+}
+
+
+.slideshow-container {
+  position: relative;
+  background: rgb(60, 60, 60);
+}
+
+.mySlides .inside{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.mySlides {
+  display: none;
+  padding: 80px;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+
+.dot-container {
+    text-align: center;
+    padding: 20px;
+    background: rgb(183, 183, 183);
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #cfcfcf;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.active, .dot:hover {
+  background-color: rgb(133, 133, 133);
+}
+
+.author {color: rgb(217, 217, 217);}
+/* collapsible  */
+.collapsible {
+    background-color: #313131;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: 1px solid white;
+    text-align: left;
+    outline: none;
+    font-size: 25px;
+  }
+
+.active, .collapsible:hover {
+    background-color: #626161;
+  }
+
+.coll-text{
+    padding: 0 18px;
+    border: 1px solid white;
+    display: none;
+    overflow: hidden;
+    background-color: #282727;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 1.8;
+}
+
+/* footer  */
+
+.side{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.side img{
+    width: 30%;
+    padding-top: 3%;
+}
+
+.side i{
+    font-size: 45px;
+    border: 2px solid white;
+    padding: 10px;
+    margin: 30px;
+}
+
+.side i:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid grey;
+    cursor: pointer;
+}
+
+.commu{
+    display: flex;
+}
+
+#contact{
+    color: #282727;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px 50px;
+}
+
+.creater{
+    padding: 200px 80px 20px 90px;
+}

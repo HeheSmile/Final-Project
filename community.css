@@ -1,0 +1,167 @@
+*{
+    font-family: Verdana, sans-serif;
+}
+
+body, html{
+    width: 100%;
+    margin: 0px;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+}
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 0px grey;
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: gray;
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(83, 83, 83); 
+  }
+
+.high-light{
+    background-color: white;
+    color: black;
+    padding: 5px 5px;
+    font-weight: 600;
+}
+/* top menu */
+.text-block {
+    position: absolute;
+    font-size: 40px;
+    bottom: 120px;
+    left: 45px;
+    text-transform: uppercase;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 1.6 ;
+  }
+
+.nav{
+    background: linear-gradient(rgb(0, 0, 0) 20%, rgb(255, 255, 255, 0));
+    display: flex;
+    font-family: Verdana, sans-serif;
+    position: fixed;
+}
+
+.nav img{
+    width: 11%;
+    height: 100%;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.nav .nav-item{
+    color: whitesmoke;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    font-size: 20px;
+    padding: 28px;
+}
+
+.nav .nav-item:hover{
+    border-bottom: 5px solid rgb(197, 196, 196);
+}
+/* community  */
+.community i{
+    font-size: 60px;
+}
+
+.community{
+    display: flex;
+}
+
+
+.community .sep a{
+    text-decoration: none;
+    color: inherit;
+}
+.community .sep{
+    width: 30%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: center;
+    
+}
+
+.community .sep:hover{
+    color: black;
+    cursor: pointer;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+.more h4{
+    text-align: center;
+    font-size: 25px;
+    line-height: 2;
+}
+
+/* sep  */
+.sep-fb{
+    background-color: #3b5998;
+}
+
+.sep-twit{
+    background-color: #55acee;
+}
+
+.sep-dis{
+    background-color: #7289da;
+}
+
+.sep-insta{
+    background-color: #cba;
+}
+
+/* info  */
+.info img{
+    width: 100%;
+}
+
+.character {
+    display: flex;
+    justify-content: center;
+    color: black;
+    background-image: linear-gradient(rgb(241, 241, 241), rgb(165, 165, 165));
+}
+
+.half1{
+    display: flex;
+    flex-direction: column;
+}
+.half1 i{
+    padding:32px;
+    font-size: 20px;
+    line-height: 1.8;
+}
+
+.half2{
+    display: flex;
+    flex-direction: column;
+}
+
+.half2 i {
+    padding: 40px;
+    font-size: 20px;
+    line-height: 1.8;
+}
+
+.creater{
+    padding: 15px 80px 20px 90px;
+}

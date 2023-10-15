@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apply Jobs</title>
+    <link rel="stylesheet" href="apply.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="nav">
+            <img src="./img/White1.png" alt="">
+            <a href="index.html" class="nav-item">Home</a>
+            <a href="#studio" class="nav-item">Studio</a>
+            <a href="#pitch" class="nav-item">Pitch</a>
+            <a href="community.html" class="nav-item">Community</a>
+            <a href="career.html" class="nav-item">Careers</a>
+            <a href="Login.html" class="nav-item">
+                Log In <i class="fa-solid fa-user"></i> 
+            </a>
+        </div>
+        <div class="apply">
+            <img src="./img/Asset 1.png" alt="" style="width: 30%;">
+            <h2>APPLY NOW</h2>
+            <h3>at 109 Studios</h3>
+            <p>Gladstone, CA</p>
+            <p>
+                At 109 Studio, we make the games we want to play. We're dedicated to providing a collaborative <br>
+                environment where our team members feel empowered with the creative freedom to contribute and <br>
+                grow. While we are based in Orange County, CA, we support flexible work arrangements ranging from <br> 
+                in-studio, hybrid, to fully remote throughout North America. Join our award-winning game <br>
+                development team and help create our next AAA title. <br>
+                <br>
+                109 Studio is looking for a full-stack engineer to develop internal tools for visualization of <br>
+                analytics and infrastructure management data. The candidate will be responsible for building websites <br>
+                for multiple studio teams to visualize and interpret large-scale data flows, from high-level dashboards to <br>
+                fine-grained querying and exploration. The candidate should have a portfolio or work history <br>
+                demonstrating an ability to build performant and highly-interactive sites that present data in intuitive <br>
+                ways for technical and non-technical audiences.
+            </p>
+            <form id="portfolio-form">
+                <div class="input">
+                    <div class="in">
+                        First Name <input type="text" placeholder="First Name" id="first">
+                    </div>
+                    <div class="in">
+                        Last Name <input type="text" placeholder="Last Name" id="last">
+                    </div>
+                    <div class="in">
+                        Email <input type="email" placeholder="Email" id="email">
+                    </div>
+                    <div class="in">
+                        Phone <input type="number" placeholder="Phone" id="phone">
+                    </div>
+                    
+                </div>
+                <label for="gender">Gender</label>
+                <select id="gender">
+                    <option value="man">Man</option>
+                    <option value="woman">Woman</option>
+                    <option value="other">other</option>
+                </select>
+                <br>
+                <label for="portfolio">Submit the CV:</label>
+                <input type="file" id="portfolio" name="portfolio" accept=".pdf, .doc, .docx">
+                <input type="submit" id="submit-cv">
+            </form>
+        </div>
+    </div>
+
+    <script src="https://tudongchat.com/js/chatbox.js"></script>
+    <script>
+      const tudong_chatbox = new TuDongChat('4ssDp8nrAb7SBLLcj7_Ur')
+      tudong_chatbox.initial()
+    </script>
+
+    <script src="apply.js"></script>
+</body>
+</html>

@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>109 Studio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- code chuyển slide của w3schools -->
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <!-- navigation -->
+        <div class="nav">
+            <img src="./img/White1.png" alt="">
+            <a href="index.html" class="nav-item">Home</a>
+            <a href="#studio" class="nav-item">Studio</a>
+            <a href="#pitch" class="nav-item">Pitch</a>
+            <a href="community.html" class="nav-item">Community</a>
+            <a href="career.html" class="nav-item">Careers</a>
+            <a href="Login.html" class="nav-item">
+                Log In <i class="fa-solid fa-user"></i>
+            </a>
+        </div>
+        <!-- content -->
+        <div class="content">
+            <!-- home  -->
+            <div id="home" class="slide_img">
+                <div class="text-block">
+                    <h4>dev diary - <span class="high-light">FAR</span> developing <br>
+                        progress</h4>
+                </div>
+                <img src="./img/Making game.png" alt="" class="slides" width="100%">
+                <img src="./img/Model.png" alt="" class="slides" width="100%">
+                <img src="./img/Gun Model.png" alt="" class="slides" width="100%">
+                <script>
+                    w3.slideshow(".slides", 9000);
+                </script>
+                <!-- studio  -->
+                <div id="studio">
+                    <img src="./img/White2.png" alt="">
+                    <div class="half">
+                        <h2>About Us</h2>
+                        <h3><span class="high-light">
+                                109 Studio</span> is the independent Vietnamese game studio,<br>
+                            109 Studio was created by « Doofenshmirtz », the college <br>
+                            Vietnamese student, with the experiment of coding and making <br>
+                            game in the Unity engine, and he was collab with two other <br>
+                            coders to create this studio and
+                            <span class="high-light">FAR</span> is their first project.<br>
+                        </h3>
+                    </div>
+                </div>
+            </div>
+            <!-- members -->
+            <h2 id="mem-title">Members</h2>
+            <div class="slideshow-container">
+                <div class="mySlides">
+                    <div class="inside">
+                        <div class="member">
+                            <img src="./img/PepeSuit.png" alt="">
+                            <p class="author">- James Mai</p>   
+                        </div>
+                        <div class="quote">
+                            <p>CEO | Lead Programmer | Graphic Artist</p>
+                            <p>James is a CEO and Founder of 109 Studio, <br>
+                                he had an idea of making indie game studio, <br>
+                                and he is the one who presenting.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mySlides">
+                    <div class="inside">
+                        <div class="member">
+                            <img src="./img/goose-pepe.gif" alt="">
+                            <p class="author">- Tony Johnson</p>   
+                        </div>
+                        <div class="quote">
+                            <p>3D Graphic | Environment Artist</p>
+                            <p>Tony was a friend of James from high school until now, <br>
+                                they we cooperate to made up 109 Studio, and Tony was <br>
+                                also a student in RRC Polytech in 3D Graphic Course.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mySlides">
+                    <div class="inside">
+                        <div class="member">
+                            <img src="./img/smirk-pepe.gif" alt="">
+                            <p class="author">- Alexander Olson</p>   
+                        </div>
+                        <div class="quote">
+                            <p>3D Animator | Sound Designer | Technical Designer</p>
+                            <p>Alexander met James in Canada and they be friend, <br>
+                                with the experiences in the university as an <br>
+                                animator and some knowledge about designing sound.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">❮</a>
+                <a class="next" onclick="plusSlides(1)">❯</a>
+                
+                </div>
+                
+                <div class="dot-container">
+                  <span class="dot" onclick="currentSlide(1)"></span> 
+                  <span class="dot" onclick="currentSlide(2)"></span> 
+                  <span class="dot" onclick="currentSlide(3)"></span> 
+                </div>
+            <!-- pitch  -->
+            <div id="pitch">
+                <div class="half" style="width: 40%; padding-left: 50px;">
+                    <h2>Pitch</h2>
+                    <button type="button" class="collapsible" style="font-weight: bold;">What is
+                        FAR about ?</button>
+                    <div class="coll-text">
+                        <p><span class="high-light">FAR</span> is the single-player
+                            FPS that tells about
+                            the soldier from his view, you need to
+                            use your skills to find the way
+                            to solve a complex case.
+                        </p>
+                    </div>
+
+                    <button type="button" class="collapsible" style="font-weight: bold;">Is
+                        the FAR a multiplayer game?</button>
+                    <div class="coll-text">
+                        <p> No. While the game features tactical gameplay mechanics, it is
+                            not designed to be a multiplayer experience. We want to
+                            maximize the cinematic and realistic experience. Balancing a
+                            multiplayer game prevents this
+
+                        </p>
+                    </div>
+
+                    <button type="button" class="collapsible" style="font-weight: bold;">What kind
+                        of gameplay and experience can players expect from FAR?</button>
+                    <div class="coll-text">
+                        <p> <span class="high-light">FAR</span> is a tactical shooter where players can expect an
+                            immersive experience. 109 Studio features complex dialogues,
+                            innovative gameplay mechanics, tough moral dilemmas, and a
+                            unique shooting system. It is not an RPG nor a loot-based
+                            game, but rather a story-driven experience with a strong focus
+                            on realism and immersion.
+
+                        </p>
+                    </div>
+
+                    <button type="button" class="collapsible" style="font-weight: bold;">At what
+                        development stage is FAR currently?</button>
+                    <div class="coll-text">
+                        <p> <span class="high-light">FAR</span> is still in the early stages of development and
+                            production. The game does not yet have a release date and is
+                            not expected to be released this year. We are still seeking
+                            publishers and investors to support the studio.
+
+                        </p>
+                    </div>
+
+                    <button type="button" class="collapsible" style="font-weight: bold;">How can I
+                        join the team working on FAR?</button>
+                    <div class="coll-text">
+                        <p> <a href="career.html">Email us</a> your resume, portfolio, and any pertinent information.
+                            Even if there are no current positions that match your qualifications,
+                            we want to hear from you!
+
+                        </p>
+                    </div>
+                </div>
+                <div class="half-img">
+                    <img src="./img/Demo.png" alt="">
+                    <img src="./img/demo2.png" alt="">
+                </div>
+            </div>
+            <!-- footer  -->
+            <div class="footer">
+                <div class="side">
+                    <h2>CONTACT</h2>
+                    <button type="button" id="contact" style="cursor: pointer;">contact@109studio.com</button>
+                    <img src="./img/White1.png" alt="">
+                    <div class="commu">
+                        <a href="https://twitter.com/dramagamestudio">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                        <a href="https://www.youtube.com/watch?v=YufwG2WMMx0">
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-brands fa-tiktok"></i>
+                        </a>
+                        <a href="https://www.facebook.com/HeheSmileorJob">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <p class="creater">
+            ©2023 109 Studio - Designed and built by James
+        </p>
+    </div>
+
+    <script src="https://tudongchat.com/js/chatbox.js"></script>
+<script>
+  const tudong_chatbox = new TuDongChat('4ssDp8nrAb7SBLLcj7_Ur')
+  tudong_chatbox.initial()
+</script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

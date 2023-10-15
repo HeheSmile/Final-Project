@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- navigation -->
+        <div class="nav">
+            <img src="./img/White1.png" alt="" >
+            <a href="index.html" class="nav-item">Home</a>
+            <a href="#studio" class="nav-item">Studio</a>
+            <a href="#pitch" class="nav-item">Pitch</a>
+            <a href="community.html" class="nav-item">Community</a>
+            <a href="career.html" class="nav-item">Careers</a>
+            <a href="Login.html" class="nav-item" id="log-in">
+                Log In <i class="fa-solid fa-user"></i>
+            </a>
+        </div>
+
+        <div class="log-in">
+            <div class="box">
+                <form id="sign-in-form">
+                    <h2 id="title">Log In</h2>
+
+                    <div class="input" id="realName" style="display: none;">
+                        <h3>Name</h3>
+                        <input type="text" id="fullName" placeholder="Full Name">
+                    </div>
+
+                    <div class="input" id="numb" style="display: none;">
+                        <h3>Phone Number</h3>
+                        <input type="text" name=phoneNumber id="phoneNumber" placeholder="Phone Number">
+                    </div>
+
+                    <div id="email" class="input">
+                        <h3>Email</h3>
+                        <input type="email" id="email" placeholder="Email">
+                    </div>
+
+                    <div id="password" class="input">
+                        <h3>Password</h3>
+                        <input type="password" placeholder="Enter Password" id="pass1">
+                    </div>
+
+                    <div class="input" id="inputPasswordAgain" style="display: none;">
+                        <h3>Retry Password</h3>
+                        <input type="password" placeholder="Confirm Password" id="pass2">
+                    </div>
+                    <h2 id="result">Result</h2>
+                    <div id="remember-me" style="color: black; display: none;">
+                        <input type="checkbox" name="remember">Remember me
+                    </div>
+                    <button type="submit" id="submit">Log In</button>
+                </form>
+                <a href="#" id="sign-up">Create Account</a>
+            </div>
+        </div>
+
+        <div class="wishlist" style="display: none;">
+            <div class="list">
+                <div class="infor">
+                    <div class="name">
+                        <h3><span class="high-light">FAR</span></h3>
+                    </div>
+                    <img src="./img/demo2.png" alt="">
+                    <img src="./img/Demo.png" alt="">
+                    <p>
+                        All Reviews: Positive <br>
+                        Release Date: x/x/xx <br>
+                        Developer: 109 Studio <br>
+                        Publisher: 109s.co <br>
+                        Game Kind:
+                        <div class="tag-name">
+                            <div class="tag">FPS</div>
+                            <div class="tag">Shooter</div>
+                            <div class="tag">Singleplayer</div>
+                        </div>
+                    </p>
+                </div>
+                <div class="more">
+                    <p>FAR Demo Stage:</p>
+                    <button type="submit" id="add">Add to Wishlist</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg">
+            <div class="container_ss">
+                <div class="sun"></div>
+                <div class="earth">
+                    <div class="moon"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://tudongchat.com/js/chatbox.js"></script>
+<script>
+  const tudong_chatbox = new TuDongChat('4ssDp8nrAb7SBLLcj7_Ur')
+  tudong_chatbox.initial()
+</script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
